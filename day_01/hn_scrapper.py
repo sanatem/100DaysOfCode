@@ -9,9 +9,9 @@ soup = BeautifulSoup(html)
 
 table = soup.find('table')
 
-#We iterate over the rows
+#Links array
 links = []
-
+#We iterate over the rows
 for row in table.findAll('tr',attrs={'class':'athing'}):
   for cell in row.findAll('td',attrs={'class':'title'}):
     link = cell.find('a',attrs={'class':'storylink'})
