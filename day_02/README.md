@@ -6,7 +6,7 @@ You will need this gems to be installed:
 
 ```
 $ gem install twitter
-
+$ gem install tweetstream
 ```
 
 ## Usage
@@ -14,4 +14,5 @@ $ gem install twitter
 Run:
 
 ```
-$ python hn_scrapper.py
+$ ruby twitter_bot
+```

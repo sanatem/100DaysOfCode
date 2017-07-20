@@ -1,7 +1,6 @@
-require "tweetstream"
 require "twitter"
-require "pry"
-require "faker"
+require "tweetstream"
+#require "faker"
 require_relative "config"
 
 @stream_client = TweetStream::Client.new(stream_config)
