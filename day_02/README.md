@@ -1,4 +1,4 @@
-# A funny robot in Ruby
+# A funny Twitterbot in Ruby
 
 ## Installation
 
