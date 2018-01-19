@@ -2,10 +2,10 @@
 import numpy as np
 import cv2
 
-tae = cv2.imread('img/taecv.jpg',cv2.IMREAD_COLOR)
+tae = cv2.imread('../img/taecv.jpg',cv2.IMREAD_COLOR)
 tae_gray = cv2.cvtColor(tae,cv2.COLOR_BGR2GRAY)
 
-yoona = cv2.imread('img/yoonacv.jpg', cv2.IMREAD_COLOR)
+yoona = cv2.imread('../img/yoonacv.jpg', cv2.IMREAD_COLOR)
 
 retval, threshold = cv2.threshold(tae, 125, 255, cv2.THRESH_BINARY)
 retval, threshold_gray = cv2.threshold(tae_gray, 125, 255, cv2.THRESH_BINARY)

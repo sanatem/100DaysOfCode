@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt # Library for plotting.
 
-img = cv2.imread('img/taecv.jpg')
+img = cv2.imread('../img/taecv.jpg')
 mask = np.zeros(img.shape[:2], np.uint8)
 
 bgModel = np.zeros((1,65), np.float64)

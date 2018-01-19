@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 # Homography - Brute force
 
-template = cv2.imread('img/bag.jpg', 1)
-feature = cv2.imread('img/bear.jpg', 1)
+template = cv2.imread('../img/bag.jpg', 1)
+feature = cv2.imread('../img/bear.jpg', 1)
 # ORB (Oriented FAST and Rotated BRIEF) is a detector of features
 orb = cv2.ORB_create()
 

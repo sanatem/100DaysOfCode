@@ -2,7 +2,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('img/taecv.jpg',cv2.IMREAD_COLOR)
+img = cv2.imread('../img/taecv.jpg',cv2.IMREAD_COLOR)
 
 #OpenCV is BGR
 # Line: img, from,to, of line, color,width
