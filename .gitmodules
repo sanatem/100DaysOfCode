@@ -1,3 +1,6 @@
 [submodule "day04/simplenote-client"]
 	path = day04/simplenote-client
 	url = https://github.com/sanatem/simplenote-electron
+[submodule "day04_simplenote-client/simplenote-client"]
+	path = day04_simplenote-client/simplenote-client
+	url = https://github.com/sanatem/simplenote-electron
